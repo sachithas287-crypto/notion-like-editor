@@ -13,6 +13,10 @@ A simple note-taking application with a calendar view and modal confirmations.
 - Drag and drop reordering of notes
 - Local storage for persistence
 
+
+## Live Demo
+[Click here to try the app](https://sachithas287-crypto.github.io/notion-like-editor/)
+
 ## File Structure
 
 - `index.html` - Main HTML file
