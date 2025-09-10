@@ -1,0 +1,99 @@
+body.dark {
+  background: #1e1e1e;
+  color: #ddd;
+}
+
+body.dark .app {
+  background: #2c2c2c;
+  box-shadow: 0 4px 20px rgb(0 0 0 / 0.6);
+}
+
+body.dark .sidebar {
+  background: #333;
+  border-color: #555;
+}
+
+body.dark .sidebar-header {
+  color: #ccc;
+  border-bottom-color: #555;
+}
+
+body.dark .note-item {
+  color: #bbb;
+}
+
+body.dark .note-item.selected,
+body.dark .note-item:hover {
+  background: #555;
+  color: #f0f0f0;
+}
+
+body.dark .add-note-button {
+  color: #ccc;
+  border-top-color: #555;
+}
+
+body.dark .add-note-button:hover {
+  background: #666;
+  color: #fff;
+}
+
+body.dark .note-title-input {
+  color: #eee;
+  border-bottom-color: #555;
+  background: transparent;
+}
+
+body.dark .note-content-textarea {
+  color: #ccc;
+  background: transparent;
+}
+
+body.dark button {
+  color: #ccc;
+}
+
+body.dark .calendar {
+  background: #333;
+  color: #cbb8a9cc;
+  border-top-color: #555;
+}
+
+body.dark .calendar-header button:hover,
+body.dark .calendar-header button:focus {
+  background: #555;
+  color: #f0f0f0;
+}
+
+body.dark .calendar-date.outside {
+  color: #555;
+}
+
+body.dark .calendar-date.today {
+  border-color: #a88a78;
+}
+
+body.dark .calendar-date.selected {
+  background-color: #a18873;
+  color: white;
+}
+
+body.dark .calendar-date.note-dot {
+  background-color: #e2a370;
+}
+
+body.dark .clear-filter-button {
+  color: #cbb8a9cc;
+}
+
+body.dark .clear-filter-button:hover,
+body.dark .clear-filter-button:focus {
+  color: #e2a370;
+  outline: none;
+}
+
+body.dark .modal {
+  background: #2c2c2c;
+  color: #ddd;
+  box-shadow: 0 0.25rem 1.25rem rgb(255 255 255 / 0.1);
+}
